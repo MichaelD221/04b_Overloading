@@ -4,7 +4,6 @@ public class TestOverloading {
 	
 	// Gleiche Signatur 1	
 
-	
 	// public void sayHello() {
 	// 	System.out.println("Hello");
 	// }
@@ -13,9 +12,9 @@ public class TestOverloading {
 	// 	System.out.println("Hello");
 	// }
 
-	
-		 
+
 	// Gleiche Signatur | return type ?	
+
 	// public void sayHello() {
 	// 	System.out.println("Hello");
 	// }
@@ -26,8 +25,8 @@ public class TestOverloading {
 	// }
 	
 	
-	
 	// Gleiche Signatur 3 | Access Modifier ?
+
 	// public void sayHello() {
 	// 	System.out.println("Hello");
 	// }
@@ -37,8 +36,8 @@ public class TestOverloading {
 	// }
 	
 	
-		
-	// Gleiche Signatur 3 | Parameter ?
+	// Gleiche Signatur 3a | Parameter ?
+
 	// public void sayHello2(String name, int counter) {
 	// 	System.out.println("Parameter name: " + name + " | Parameter: counter: " + counter);
 	// }
@@ -48,13 +47,14 @@ public class TestOverloading {
 	// }
 
 
-	// Gleiche Signatur 3 | Parameter Namen ?
+	// Gleiche Signatur 3b | Parameter Namen ?
+
 	// public void sayHello2(String name, int counter) {
 	// 	System.out.println("Parameter name: " + name + " | Parameter: counter: " + counter);
 	// }
 	
 	// public void sayHello2(String pString, int pCount) {
-	// 	System.out.println("Parameter name: " + name + " | Parameter: counter: " + counter);
+	// 	System.out.println("Parameter name: " + pString + " | Parameter: counter: " + pCount);
 	// }
 	
 	
@@ -63,7 +63,7 @@ public class TestOverloading {
 		System.out.println("1: Parameter name: " + name + " | Parameter: counter: " + counter);
 	}
 	
-	// // Überladene Methode 1 (Reihenfolge Parameter)
+	// // Überladene Methode 2 (Reihenfolge Parameter)
 	public void sayHello2(int counter, String name) {
 		System.out.println("2: Parameter name: " + name + " | Parameter: counter: " + counter);
 	}
@@ -80,7 +80,7 @@ public class TestOverloading {
 	}
 	
 	
-	// // Überladene Methode 3 (Parameter Typ)
+	// // Überladene Methode 4 (Parameter Typ)
 	public void sayHello3(String name, String ID) {
 		System.out.println("Parameter name: " + name + " | Parameter: ID: " + ID);
 	}
